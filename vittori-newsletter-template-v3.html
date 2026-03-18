@@ -6,7 +6,6 @@
 <title>The Vittori Letter — Edition {{EDITION_NUMBER}}</title>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
-
 /* ─────────────────────────────────────────────────
    VITTORI NEWSLETTER — TEMPLATE v3
    Brand spec: Cormorant Garamond (body/headline)
@@ -18,24 +17,18 @@
    Rules:      No emoji. White space is luxury.
                Max one external link per edition.
 ───────────────────────────────────────────────── */
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
 body {
   background-color: #ededea;
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
-
 .wrap {
   max-width: 620px;
   margin: 0 auto;
   background: #ffffff;
 }
-
-
 /* ── MASTHEAD ─────────────────────────────────── */
-/* The permanent brand header — never changes     */
 .masthead {
   background: #ffffff;
   padding: 32px 44px 28px;
@@ -64,10 +57,7 @@ body {
   text-align: right;
   line-height: 1.6;
 }
-
-
 /* ── HERO ─────────────────────────────────────── */
-/* AI populates: HERO_HEADLINE, HERO_SUBHEAD       */
 .hero {
   background-color: #0d0d0d;
   padding: 52px 44px 56px;
@@ -100,14 +90,11 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #5a5a5a;
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
   max-width: 480px;
 }
-
-
 /* ── BODY TEXT ────────────────────────────────── */
-/* AI populates all paragraph content             */
 .body {
   padding: 44px 44px 0;
 }
@@ -121,11 +108,7 @@ body {
 }
 .body p b { font-weight: 600; color: #0d0d0d; }
 .body p:last-child { margin-bottom: 0; }
-
-
 /* ── THE NUMBER ───────────────────────────────── */
-/* AI populates: STAT_LABEL, STAT_FIGURE,          */
-/*               STAT_DESC, STAT_SOURCE            */
 .number-card {
   background-color: #0d0d0d;
   padding: 44px 44px;
@@ -152,7 +135,7 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 400;
-  color: #4a4a4a;
+  color: rgba(255, 255, 255, 0.55);
   line-height: 1.75;
   max-width: 400px;
   margin-bottom: 14px;
@@ -161,13 +144,10 @@ body {
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 1px;
-  color: #2e2e2e;
+  color: #555555;
   text-transform: uppercase;
 }
-
-
 /* ── PULL QUOTE ───────────────────────────────── */
-/* AI populates: QUOTE_TEXT, QUOTE_ATTRIBUTION    */
 .pull {
   border-left: 2px solid #9e8b72;
   padding: 20px 28px;
@@ -190,10 +170,7 @@ body {
   text-transform: uppercase;
   color: #aaaaaa;
 }
-
-
 /* ── SECTION DIVIDER ──────────────────────────── */
-/* AI populates: SECTION_LABEL text               */
 .section-head {
   display: flex;
   align-items: center;
@@ -215,18 +192,14 @@ body {
   color: #bbbbbb;
   white-space: nowrap;
 }
-
-
 /* ── STATS ROW ────────────────────────────────── */
-/* AI populates: up to 3 STAT_NUM + STAT_LABEL    */
 .stats-row {
   display: flex;
   gap: 0;
-  padding: 0 44px;
-  margin-top: 36px;
   border: 1px solid #e8e5df;
   margin-left: 44px;
   margin-right: 44px;
+  margin-top: 36px;
   padding: 0;
 }
 .stat-card {
@@ -253,10 +226,7 @@ body {
   color: #aaaaaa;
   line-height: 1.5;
 }
-
-
 /* ── NUMBERED TAKEAWAYS ───────────────────────── */
-/* AI populates: numbered list items              */
 .num-list {
   padding: 0 44px;
   margin-top: 36px;
@@ -290,10 +260,7 @@ body {
   color: #1f1f1f;
 }
 .num-item-text b { font-weight: 600; color: #0d0d0d; }
-
-
 /* ── CALLOUT ──────────────────────────────────── */
-/* AI populates: callout body text                */
 .callout {
   border-left: 2px solid #0d0d0d;
   padding: 22px 28px;
@@ -307,18 +274,13 @@ body {
   color: #1f1f1f;
 }
 .callout p b { font-weight: 600; color: #0d0d0d; }
-
-
 /* ── CLOSING DIVIDER ──────────────────────────── */
 .divider {
   height: 1px;
   background: #e8e5df;
   margin: 44px 44px;
 }
-
-
 /* ── SIGN OFF ─────────────────────────────────── */
-/* AI populates: SIGNOFF_COPY, SIGNOFF_NAME       */
 .signoff {
   padding: 0 44px 44px;
 }
@@ -351,10 +313,7 @@ body {
   margin-top: 24px;
   line-height: 1.6;
 }
-
-
 /* ── BRAND SECTION ────────────────────────────── */
-/* Fixed section — always appears, never changes  */
 .brand-section {
   background: #f5f3ee;
   border-top: 1px solid #e8e5df;
@@ -397,8 +356,6 @@ body {
   padding: 14px 28px;
   margin-top: 8px;
 }
-
-
 /* ── FOOTER ───────────────────────────────────── */
 .footer {
   padding: 28px 44px;
@@ -423,8 +380,6 @@ body {
   color: #dddddd;
   line-height: 1.6;
 }
-
-
 /* ── RESPONSIVE ───────────────────────────────── */
 @media (max-width: 600px) {
   .masthead       { padding: 24px 24px 20px; flex-direction: column; gap: 8px; }
@@ -446,12 +401,10 @@ body {
   .brand-section  { padding: 36px 24px; }
   .footer         { padding: 24px 24px; }
 }
-
 </style>
 </head>
 <body>
 <div class="wrap">
-
   <!-- ═══ MASTHEAD — fixed, never AI-generated ══════════════ -->
   <div class="masthead">
     <div class="masthead-name">The Vittori <span>Letter</span></div>
@@ -460,7 +413,6 @@ body {
       {{EDITION_DATE}}
     </div>
   </div>
-
   <!-- ═══ HERO — AI populates headline + subhead ═══════════ -->
   <div class="hero">
     <div class="hero-tag">The Vittori Letter &nbsp;&middot;&nbsp; Edition {{EDITION_NUMBER}}</div>
@@ -470,7 +422,6 @@ body {
     </div>
     <div class="hero-sub">{{HERO_SUBHEADLINE}}</div>
   </div>
-
   <!-- ═══ OPENING STORY — AI writes 3–4 paragraphs ════════ -->
   <div class="body" style="padding-top:44px">
     <p><b>{{STORY_OPENING_BOLD_HOOK}}</b> {{STORY_PARAGRAPH_1}}</p>
@@ -478,7 +429,6 @@ body {
     <p>{{STORY_PARAGRAPH_3}}</p>
     <p>{{STORY_PARAGRAPH_4}}</p>
   </div>
-
   <!-- ═══ THE NUMBER — AI selects 1 key stat ══════════════ -->
   <div class="number-card">
     <div class="number-label">The Number</div>
@@ -486,26 +436,22 @@ body {
     <div class="number-desc">{{STAT_DESCRIPTION}}</div>
     <div class="number-source">{{STAT_SOURCE}}</div>
   </div>
-
   <!-- ═══ PULL QUOTE — AI selects 1 quote per edition ═════ -->
   <div class="pull">
     <p>&ldquo;{{PULL_QUOTE_TEXT}}&rdquo;</p>
     <div class="pull-attr">{{PULL_QUOTE_ATTRIBUTION}}</div>
   </div>
-
   <!-- ═══ SECTION: ANALYSIS ════════════════════════════════ -->
   <div class="section-head">
     <div class="section-head-line"></div>
     <div class="section-label">{{SECTION_1_LABEL}}</div>
     <div class="section-head-line"></div>
   </div>
-
   <div class="body" style="padding-top:36px">
     <p>{{ANALYSIS_PARAGRAPH_1}}</p>
     <p>{{ANALYSIS_PARAGRAPH_2}}</p>
     <p>{{ANALYSIS_PARAGRAPH_3}}</p>
   </div>
-
   <!-- ═══ STATS ROW — AI populates up to 3 figures ════════ -->
   <div class="stats-row">
     <div class="stat-card">
@@ -521,14 +467,12 @@ body {
       <div class="stat-label">{{STAT_3_LABEL}}</div>
     </div>
   </div>
-
   <!-- ═══ SECTION: TAKEAWAYS ═══════════════════════════════ -->
   <div class="section-head" style="margin-top:44px">
     <div class="section-head-line"></div>
     <div class="section-label">{{SECTION_2_LABEL}}</div>
     <div class="section-head-line"></div>
   </div>
-
   <div class="num-list" style="margin-top:36px">
     <div class="num-item">
       <div class="num-item-n">1</div>
@@ -543,25 +487,20 @@ body {
       <div class="num-item-text"><b>{{TAKEAWAY_3_TITLE}}</b> {{TAKEAWAY_3_BODY}}</div>
     </div>
   </div>
-
   <!-- ═══ SECTION: BIGGER PICTURE ══════════════════════════ -->
   <div class="section-head">
     <div class="section-head-line"></div>
     <div class="section-label">{{SECTION_3_LABEL}}</div>
     <div class="section-head-line"></div>
   </div>
-
   <div class="callout">
     <p>{{BIGGER_PICTURE_TEXT}}</p>
   </div>
-
   <div class="body" style="padding-top:36px; padding-bottom:0">
     <p>{{CLOSING_PARAGRAPH_1}}</p>
     <p>{{CLOSING_PARAGRAPH_2}}</p>
   </div>
-
   <div class="divider"></div>
-
   <!-- ═══ SIGN OFF — AI writes closing, signs from Carlos ══ -->
   <div class="signoff">
     <p>{{SIGNOFF_PARAGRAPH}}</p>
@@ -569,7 +508,6 @@ body {
     <div class="signoff-role">{{SIGNOFF_TITLE}}</div>
     <div class="signoff-forward">Know someone building at the intersection of engineering and obsession? Forward this.</div>
   </div>
-
   <!-- ═══ BRAND SECTION — fixed, never AI-generated ════════ -->
   <div class="brand-section">
     <div class="brand-head">Why We&rsquo;re Building Vittori</div>
@@ -578,7 +516,6 @@ body {
     <p>Every component goes through the same process: <b>AI generates the geometry, engineers validate the physics, Italian craftsmen execute the build.</b> The design barrier is gone. The knowledge barrier is not. That is where we compete.</p>
     <a href="https://vittori.com" class="cta-btn">Register Your Interest</a>
   </div>
-
   <!-- ═══ FOOTER ════════════════════════════════════════════ -->
   <div class="footer">
     <div class="footer-links">
@@ -588,7 +525,6 @@ body {
     </div>
     <div class="footer-legal">&copy; 2026 Vittori Inc. &nbsp;&middot;&nbsp; 241 W 30th St, New York, NY 10001 &nbsp;&middot;&nbsp; marketing@vittori.com</div>
   </div>
-
 </div>
 </body>
 </html>
