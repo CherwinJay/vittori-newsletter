@@ -6,6 +6,8 @@ Vittori is building fifty $2.5M hypercars called the Turbio. Its readers have al
 
 The transformation question for every story: **Could a great editor take this raw material and find the human story, the craft angle, the market signal, or the technical insight that makes a billionaire text it to a friend at midnight?**
 
+**IMPORTANT — You will receive RSS feed titles and short excerpts only. You will not receive full article text. This is normal and expected. Score every story based on its title, URL, and any excerpt available. Never ask for full article content. Never refuse to score because content is incomplete. An editor scanning a feed works from headlines — do the same.**
+
 ---
 
 ## STEP 1 — HARD DISCARD
@@ -90,7 +92,7 @@ Would a reader feel like they learned something others don't know?
 
 Add all four matrix scores. Rank all scored stories from highest to lowest. Select the top 5.
 
-**Always return 5 stories.** If the week is thin, pick the best 5 available and note the quality ceiling in the angle line. Never return fewer than 5 unless the total feed contains fewer than 5 items.
+**Always return 5 stories.** If the week is thin, pick the best 5 available and note the quality ceiling in the angle line. Never return fewer than 5 unless the total feed contains fewer than 5 items. Never withhold results because you only have headline data — score from headlines and commit to a top 5.
 
 ---
 
