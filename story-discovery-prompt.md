@@ -98,7 +98,9 @@ Add all four matrix scores. Rank all scored stories from highest to lowest. Sele
 
 ## STEP 4 — OUTPUT
 
-Reply with ONLY this format. No preamble, no explanation outside the format:
+OUTPUT RULE: Your entire response must be ONLY the formatted message below. No analysis. No scoring breakdown. No step explanations. No preamble. No commentary after. Do all scoring and thinking silently. The first characters of your response must be "URLS:" and the last characters must be "Reply 1–5 to select."
+
+Reply with ONLY this format:
 
 URLS: [url1] | [url2] | [url3] | [url4] | [url5]
 
