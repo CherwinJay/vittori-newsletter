@@ -28,6 +28,19 @@ Vittori is never mentioned in the first third of the piece. The reader should fe
 
 ---
 
+## TRANSFORMATION FRAMEWORK — FIVE QUESTIONS
+Before drafting from any external source, every piece must answer all five:
+
+1. **Connection** — How does this relate to what we are building?
+2. **Elevation** — How can we tell this so the reader feels smarter?
+3. **Exclusivity** — Can we frame this as insight they wouldn't get elsewhere?
+4. **Aspiration** — Does this reinforce the world our reader inhabits?
+5. **Craft** — Where is the human story inside the technical story?
+
+If question 5 has no answer, do not write the piece. The human story is not optional.
+
+---
+
 ## THE REFRAME RULE
 When referencing any external development — a new tool, an industry shift, a competitor — NEVER write from the angle of what anyone can now do. ALWAYS write from the angle of what only the extraordinary choose to do with it.
 
