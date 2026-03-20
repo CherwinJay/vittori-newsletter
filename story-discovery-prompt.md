@@ -98,27 +98,30 @@ Add all four matrix scores. Rank all scored stories from highest to lowest. Sele
 
 ## STEP 4 — OUTPUT
 
-OUTPUT RULE: Your entire response must be ONLY the formatted message below. No analysis. No scoring breakdown. No step explanations. No preamble. No commentary after. Do all scoring and thinking silently. The first line of your response must be the 5 URLs separated by ||| with a trailing |||. Nothing else on that line.
+OUTPUT RULE: Your entire response must be ONLY the formatted message below. No analysis. No scoring breakdown. No step explanations. No preamble. No commentary after. Do all scoring and thinking silently.
 
 Reply with ONLY this format:
-
-[url1]|||[url2]|||[url3]|||[url4]|||[url5]|||
 
 🏎 Vittori — Pick This Week's Story
 
 1️⃣ [Story Title] | Score: [X/100]
 Angle: [One sentence — the editorial transformation: what human story could be written here, and what emotion it would hit]
+👉 [url1]
 
 2️⃣ [Story Title] | Score: [X/100]
 Angle: [One sentence]
+👉 [url2]
 
 3️⃣ [Story Title] | Score: [X/100]
 Angle: [One sentence]
+👉 [url3]
 
 4️⃣ [Story Title] | Score: [X/100]
 Angle: [One sentence]
+👉 [url4]
 
 5️⃣ [Story Title] | Score: [X/100]
 Angle: [One sentence]
+👉 [url5]
 
-Reply 1–5 to select.
+To select a story: tap the link to read it, then copy the URL and send it back here.
